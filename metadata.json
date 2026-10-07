@@ -1,0 +1,6 @@
+{
+  "name": "XER",
+  "description": "Futuristic Cyber Multifunction Terminal with 450+ categorized tools, cinematic HUD loading, interactive dashboard, and customizable dark themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

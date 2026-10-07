@@ -1,7 +1,7 @@
 workflows:
   android-debug:
     name: XER Android Debug APK
-    instance_type: linux
+    instance_type: mac_mini_m2
 
     environment:
       java: 17

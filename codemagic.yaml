@@ -1,6 +1,6 @@
 workflows:
   android-debug:
-    name: XER Android Debug APK
+    name: GT PRJCT Android Debug APK
     instance_type: mac_mini_m2
 
     environment:
@@ -20,6 +20,7 @@ workflows:
               -validity 10000 \
               -dname "CN=Android Debug,O=Android,C=US"
           fi
+
       - name: Build debug APK
         script: |
           chmod +x ./gradlew
